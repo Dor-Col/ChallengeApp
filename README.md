@@ -6,7 +6,7 @@ użytkownikowi najniższą, najwyższa ocene jaką zdobył oraz średnią jego o
 
 ## Opis działania programu:
 Użytkownik po otwarciu programu jest proszony o wprowadzanie serii ocen (od 1- do 6+).
-Użytkownik może zakończyć wprowadzanie ocen wpisując za miast oceny 'q'.
+Użytkownik może zakończyć wprowadzanie ocen wpisując zamiast oceny 'q'.
 Po tym jak użytkownik, zdecyduje się zakończyć wprowadzanie ocen, program sprawdza i 
 wyświelta niajniższa i najwyższą ocene zdobytą przez studenta oraz liczy i wyświetla
 jego średnią ocen.

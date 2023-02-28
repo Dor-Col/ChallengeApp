@@ -4,8 +4,7 @@ using System.Collections.Generic;
 namespace ChallengeApp
 {
     public class InMemoryStudent : StudentBase
-    {   
-        private List<double> grades;
+    {   private List<double> grades;
         public InMemoryStudent(string name, string surname) : base(name, surname)
         { grades = new List<double>(); }
 

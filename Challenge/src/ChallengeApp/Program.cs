@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace ChallengeApp
 {
@@ -17,8 +16,7 @@ namespace ChallengeApp
                 Console.WriteLine($"Grzegorz's highest grade is: {stat.High:N2}");
                 Console.WriteLine($"Grzegorz's average grade is: {stat.Average:N2}");
             }
-            Console.WriteLine($"Press any button to exit application.");
-            Console.ReadLine();
+
         }
 
         private static void EnterGrade(IStudent student)

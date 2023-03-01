@@ -23,6 +23,7 @@ namespace ChallengeApp
                 LowGradeAdded(this, new EventArgs());
             }
         }
+
         public override void AddGrade(string input)
         {
             var grade = input switch

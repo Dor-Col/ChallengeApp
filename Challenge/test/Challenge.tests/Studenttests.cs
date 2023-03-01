@@ -11,13 +11,10 @@ namespace Challenge.tests
         {
             //arrage
             var student = new SavedStudent("Grzegorz", "Kowalski");
-            
-            
             student.AddGrade(1);
             student.AddGrade(1.5);
             student.AddGrade(5);   
                   
-
             //act
             var result = student.GetStatistics();
 

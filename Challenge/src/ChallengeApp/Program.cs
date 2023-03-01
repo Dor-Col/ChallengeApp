@@ -16,7 +16,6 @@ namespace ChallengeApp
                 Console.WriteLine($"Grzegorz's highest grade is: {stat.High:N2}");
                 Console.WriteLine($"Grzegorz's average grade is: {stat.Average:N2}");
             }
-
         }
 
         private static void EnterGrade(IStudent student)
@@ -42,6 +41,7 @@ namespace ChallengeApp
                 }
             }
         }
+
         static void LowGradeAdded(object sender, EventArgs args)
         {
             Console.WriteLine("Oh no! We should inform student’s parents about this fact");

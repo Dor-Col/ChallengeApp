@@ -7,7 +7,6 @@ namespace ChallengeApp
         public class SavedStudent : StudentBase
     {
         private const string fileName = "_grades.txt";
-
         public SavedStudent(string name, string surname) : base(name, surname)
         {
         }
@@ -15,7 +14,7 @@ namespace ChallengeApp
         public bool HasGrades()
         {
             if (this.grades.Count > 0)
-                return true;
+            return true;
             return false;
         }
 

@@ -11,12 +11,14 @@ namespace ChallengeApp
         public SavedStudent(string name, string surname) : base(name, surname)
         {
         }
+
         public bool HasGrades()
         {
             if (this.grades.Count > 0)
                 return true;
             return false;
         }
+
         public override void AddGrade(double grade)
         {
             if (grade >= 0 && grade <= 6.5)

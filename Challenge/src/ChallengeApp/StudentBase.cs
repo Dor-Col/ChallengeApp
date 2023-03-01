@@ -42,7 +42,6 @@ namespace ChallengeApp
                 "6+" => 6.5,
                 _ => double.Parse(input),
             };
-
             if (grade >= 0 && grade <= 6.5)
             {
                 this.AddGrade(grade);

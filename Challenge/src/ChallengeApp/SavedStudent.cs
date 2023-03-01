@@ -7,7 +7,7 @@ namespace ChallengeApp
 
     public class SavedStudent : StudentBase
     {
-        private List<double> grades = new List<double>();
+        //private List<double> grades = new List<double>();
         private const string fileName = "_grades.txt";
 
         public SavedStudent(string name, string surname) : base(name, surname)
@@ -45,7 +45,7 @@ namespace ChallengeApp
 
             }
         }
-        public override void AddGrade(string input)
+        /*public override void AddGrade(string input)
         {
             var grade = input switch
             {
@@ -74,7 +74,7 @@ namespace ChallengeApp
             {
                 throw new ArgumentException($"Invalid value, out of range, only grades from 0 to 6");
             }
-        }
+        }*/
 
         public override Statistics GetStatistics()
         {

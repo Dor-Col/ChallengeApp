@@ -9,9 +9,12 @@ namespace ChallengeApp
     {        
     }
         public event LowGradeAddedDelegate LowGradeAdded;
+        public List<double> grades = new List<double>();
 
         public abstract void AddGrade(double grade);
+        
         public abstract Statistics GetStatistics();
+
         protected void CheckEventLowGrade()
         {
             if (LowGradeAdded != null)

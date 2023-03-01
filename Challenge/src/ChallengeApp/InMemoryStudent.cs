@@ -6,10 +6,10 @@ namespace ChallengeApp
     public class InMemoryStudent : StudentBase
     {   
         private List<double> grades;
-
         public InMemoryStudent(string name, string surname) : base(name, surname)
-
-        {grades = new List<double>();}
+        {
+            grades = new List<double>();
+        }
 
         public override void AddGrade(double grade)
         {
